@@ -12,8 +12,8 @@ sheet = client.open("Patients").sheet1  # Change to your sheet name
 data = sheet.get_all_records()
 
 # --- Twilio Setup ---
-account_sid = 'AC0fd020a105177ac43603e8431cec5aaf'
-auth_token = '**************************'
+account_sid = ' '
+auth_token = ' '
 twilio_client = Client(account_sid, auth_token)
 twilio_whatsapp_number = 'whatsapp:+14155238886'  # Twilio Sandbox Number
 
